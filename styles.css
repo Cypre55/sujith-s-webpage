@@ -2,32 +2,27 @@ body {
     font-family: "Jost","Lato", sans-serif;
     margin: 0px;
     background-color: black;
-    overflow-x: hidden; //horizontal
+    overflow-x: hidden; /*horizontal*/
   }
 
-.container {
-    position: relative;
-}
 
-.container div {
-    position: absolute; 
-    top: 0; 
-    left: 0; 
-}
 
 .logo {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     overflow: hidden;
-  /* position: fixed; Set the navbar to fixed position */
+    z-index:1;
+   position: fixed; /*Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
     color: wheat;
     font-size: 300%;
-    /* background-color: black; */
+
+    background-color: black;
 }
 
-.content {
+.container {
+    margin-top: 120px;
 }
 
 .profile-pic img {
@@ -39,17 +34,49 @@ body {
 
 
 #logo-right {
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .logo a:link, .logo a:visited, .logo a:hover, .logo a:active {
-    color:wheat; 
+    color:wheat;
     text-decoration: none;
 }
 
-.content {
+.intro {
     color: wheat;
     text-align: center;
     padding: 10px;
     font-size: 150%;
+}
+
+.sub-title {
+    color: wheat;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.sub-sub-title {
+    color: wheat;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.detail-box {
+    color: wheat;
+    /* margin-left: 150px; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+#insti {
+    font-weight: bold;
+    font-size: 28px;
+}
+#sub-text {
+    font-size: 20px;
 }
