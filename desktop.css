@@ -1,0 +1,23 @@
+.Experience-points {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 25px;
+    color: red;
+}
+
+.sub-title {
+    color: red;
+    margin-left: 20%;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.sub-sub-title {
+    color: red;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px;
+}
